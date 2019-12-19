@@ -1,0 +1,58 @@
+body
+{
+    margin-top: 25px;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(29, auto);
+    max-width: 870px;
+}
+
+.grid-block
+{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+}
+
+.button
+{
+	border: 2px solid black;
+	background-color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	color: black;
+	border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover 
+{
+  background-color: black;
+  color: white;
+}
+
+.black
+{
+    background-color: black;
+}
+
+.yellow
+{
+    background-color: yellow;
+}
+
+.white
+{
+    background-color: white;
+}
+
+.red
+{
+    background-color: red;
+}
